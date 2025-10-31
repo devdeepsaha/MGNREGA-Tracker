@@ -11,7 +11,7 @@ import {
   Minus,
 } from "lucide-react";
 
-const BACKEND_URL = "http://127.0.0.1:8000"; // change if backend deployed
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL; // change if backend deployed
 
 function App() {
   const [selectedState, setSelectedState] = useState("");
