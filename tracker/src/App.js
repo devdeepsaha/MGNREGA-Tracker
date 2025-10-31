@@ -11,7 +11,7 @@ import {
   Minus,
 } from "lucide-react";
 
-const BACKEND_URL = import.meta.env.VITE_BACKEND_URL; // change if backend deployed
+const BACKEND_URL = "https://mgnrega-tracker-1064589003793.us-central1.run.app/"; // change if backend deployed
 
 function App() {
   const [selectedState, setSelectedState] = useState("");
