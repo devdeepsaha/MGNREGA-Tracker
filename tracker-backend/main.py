@@ -14,7 +14,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],  # your React frontend
+    allow_origins=["http://localhost:3000","https://mgnrega-tracker-rose.vercel.app"],  # your React frontend
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
